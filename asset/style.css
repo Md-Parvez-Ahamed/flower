@@ -1,0 +1,60 @@
+/* Default  Css Start */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+/* Default css End*/
+
+/* hero section css start */
+.hero-area{
+    background: rgba(229, 84, 115, 0.10);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.hero-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+.hero-d
+}
+.hero-photo{
+    width: 400px;
+    
+}
+.hero-discription{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0px;
+}
+.hero-btn{
+    padding: 20px 42px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+/* hero section css End */
+/* Hot deal section Css Start */
+.hot-deal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* Hot deal section Css End */
