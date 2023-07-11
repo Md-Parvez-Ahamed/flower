@@ -32,7 +32,6 @@
     color: #272727;
     font-size: 40px;
     font-weight: 900;
-.hero-d
 }
 .hero-photo{
     width: 400px;
@@ -55,6 +54,25 @@
     border: none;
 }
 /* hero section css End */
+/* Our feauted Section Start */
+.our{
+    text-align: center;
+}
+.our-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+}
+.our-discription{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px;
+    text-align: center;
+}
+/* Our feauted Section End */
 /* Hot deal section Css Start */
 .hot-deal-area{
     padding: 100px;
