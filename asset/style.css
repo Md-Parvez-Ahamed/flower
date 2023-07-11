@@ -91,16 +91,19 @@ section.our-featured {
     background: #E55473;
     border-radius: 300px 300px 5px 5px;
     padding: 100px 70px 0px 70px;
+    box-shadow: 10px 18px 20px #00000026;
 }
 .fe-photo\:nth-child\(2\) {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 175px 70px 0px 70px;
+    box-shadow: 10px 18px 20px #00000026;
 }
 .fe-photo\:nth-child\(3\){
     background-color: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 5px 5px;
     padding: 76px 70px 0px 70px;
+    box-shadow: 10px 18px 20px #00000026;
 }
 a.feature-a {
     color: #272727;
@@ -266,7 +269,75 @@ input.get-btn {
     text-align: center;
 }
 /* get section End */
+/* Blog Section Start */
+.blog-area{
+    margin-bottom: 130px;
+}
+.blog-summary{
+    text-align: center;
+    padding: 30px 0px;
+    color: rgba(39, 39, 39, 0.60);
+   
+    font-size: 18px;
+    margin: 16px 0px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.blog{
+    text-align: center;
+}
+.blog-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.blog-post-item {
+    padding: 30px;
+    width: 350px;
+    height: 650px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px 4px gray;
+}
+.blog-discription{
+    margin: 25px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+   
+}
+.bog-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
 
+img.blog-photo {
+    width: 250px;
+}
+
+p.blog-class {
+    text-align: justify;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+.blog-btn{
+    padding: 20px 42px;
+    border-radius: 8px;
+    background-color: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.blog-post-item {
+    padding: 30px;
+}
+/* Blog Section End */
 /* Footer Section Css Start */
 .footer-area{
     background: #111010;
