@@ -118,7 +118,28 @@ a.feature-a {
 img.flow {
     width: 200px;
 }
-
+/* Delivery Area Start */
+.delivary-area{
+    margin: 0px 0px 130px 0px;
+}
+.delivery{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2727270D;
+    padding: 80px;
+}
+.delivery-box{
+    text-align: center;
+}
+.delivery-p{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+}
+/* Delivery Area End */
 
 /* Our feauted Section End */
 /* Hot deal section Css Start */
