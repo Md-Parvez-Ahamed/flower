@@ -55,8 +55,12 @@
 }
 /* hero section css End */
 /* Our feauted Section Start */
+section.our-featured {
+    padding: 130px 0px;
+}
 .our{
     text-align: center;
+    padding: 30px 0px;
 }
 .our-title{
     color: #272727;
@@ -72,6 +76,50 @@
     margin: 20px 0px;
     text-align: center;
 }
+.fea-fl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.featur-img{
+    text-align: center;
+}
+.feature-item{
+    
+}
+.fe-photo{
+    background: #E55473;
+    border-radius: 300px 300px 5px 5px;
+    padding: 100px 70px 0px 70px;
+}
+.fe-photo\:nth-child\(2\) {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 175px 70px 0px 70px;
+}
+.fe-photo\:nth-child\(3\){
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 5px 5px;
+    padding: 76px 70px 0px 70px;
+}
+a.feature-a {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin: 20px 0px;
+    display: block;
+}
+
+img.flow {
+    width: 200px;
+}
+
+
 /* Our feauted Section End */
 /* Hot deal section Css Start */
 .hot-deal-area{
