@@ -139,7 +139,7 @@
 }
 .get-content{
     text-align: center;
-    background-image: url("/asset/Rectangle\ 9.png");
+    background-image: url(../asset/Rectangle9.png);
     background-position: center center;
     border-radius: 8px;
     background-size: cover;
